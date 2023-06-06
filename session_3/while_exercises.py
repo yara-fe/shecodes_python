@@ -1,23 +1,25 @@
-# Question 1: 
+################# 
+# QUESTION 1: 
 # Continuously ask the user to enter a number until they provide a blank input. Output the sum of all the numbers.
 
 #initate the total value to zero
-##total = 0 
-##raw_input = input ("Enter a number: ")
+total = 0 
+raw_input = input ("Enter a number: ")
 
 #while raw_input is not blank, 
 # convert the string input to an integer. 
 # add the number to the previous total
 # ask for another number
-##while raw_input != '':
-##    num = int(raw_input)
-##    total += num
-##    raw_input = input ("Enter a number: ")
+while raw_input != '':
+   num = int(raw_input)
+   total += num
+   raw_input = input ("Enter a number: ")
 
 # when the raw_input is blank, print the sum
-##print ("Your numbers sum to ", total)
+print ("Your numbers sum to ", total)
 
-# Question 2:
+#################
+# QUESTION 2:
 # Ask the user to enter a in integer number. 
 # Print all the odd numbers between 0 and that number (inclusive).
 
@@ -26,20 +28,22 @@
 # If a number is divded by 2 and the remainder is 0, it is even.
 # If the remainder is not 0, it is odd.
 
+count = 1
+number = int (input("Enter a number: "))
 
-# count = 1
-# number = int (input("Enter a number: "))
+while count <= number:
+    if (count % 2 != 0):
+        print(count)
+    count = count + 1
 
-# while count <= number:
-#     if (count % 2 != 0):
-#         print(count)
-#     count = count + 1
+for number in range (0, number + 1):
+    if number % 2 != 0:
+        print(number, end=" ")
 
-# for number in range (0, number + 1):
-#     if number % 2 != 0:
-#         print(number, end=" ")
 
-#Question 3:
+
+#################
+# QUESTION 3:
 #Select a number, and save it as a variable in your code. 
 #Ask the user to enter anumber, and then output whether their number is less than or greater than the selected number. 
 #Keep asking until the user guesses the correct number. 
