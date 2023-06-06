@@ -8,14 +8,16 @@
 # Iterating is the process of doing something multiple times
 # Each "turn" or repitition is an iteration
 
+
 ######################
 # WHILE
 ######################
-# Execute a chunk of code repeatedly, for as long as some Boolean expression is True.
+# Execute a chunk of code repeatedly, for as long as condition is True.
 
 # While loop syntax:
 # while <condition>:
 #    <loop body>
+
 # condition is a boolean expression that equates to True or False
 # indentation is important!
 # condition will be evaluated first.
@@ -36,6 +38,13 @@
 #Code that will not be executed if Boolean never evaluates to True:
 ## while False:
     # Doesn't matter what I put here... it will never run
+
+# While loop string example:
+# name = input("What is your name?: ")
+
+# while name != "Yara":
+#     print ("I don't know you!")
+#     name = input("What is your name?: ")
 
 ######################
 # FOR
