@@ -1,0 +1,18 @@
+Lists
+numbers = [1,2,3]
+numbers[0]
+
+DICTIONARY
+
+Syntax:
+    dictionary_name = [key:"value"]
+        Example: students = ["Yara":111]
+
+- Key is primary key / unique
+- Value can be any data type
+- Keys can only be imutable data types
+
+“mutable” and “immutable” refer to the ability of an object to be changed after it is created
+Imutable means single unit data types - e.g. strings, floats, booleans
+
+An object is considered mutable if its state or value can be modified after it is created. This means that you can alter its internal data or attributes without creating a new object. Examples of mutable objects in Python include lists, dictionaries, and sets. If you modify a mutable object, any references to that object will reflect the changes.
